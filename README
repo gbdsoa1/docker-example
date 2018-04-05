@@ -1,7 +1,9 @@
 # OVERVIEW
 Proof of concept project demonstrating a spring boot uService deployed to docker
 
-##i Example
+## Example
+** NOTE ** This will be unavailable after 5d
+
 For example of working endpoint deployed to docker (AWS): 
 
 POST http://54.200.221.135:8888/util/calculator/product?multiples=5,5,5,5
