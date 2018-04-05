@@ -1,0 +1,16 @@
+#OVERVIEW
+Proof of concept project demonstrating a spring boot uService deployed to docker
+
+##Example
+For example of working endpoint deployed to docker (AWS): 
+
+POST http://54.200.221.135:8888/util/calculator/product?multiples=5,5,5,5
+
+response: 
+
+HTTP/1.1 200 
+Content-Type: application/json;charset=UTF-8
+Transfer-Encoding: chunked
+Date: Wed, 04 Apr 2018 23:12:19 GMT
+
+{"result":625.0}
